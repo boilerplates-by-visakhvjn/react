@@ -26,12 +26,12 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
+      <p className="read-the-docs italic">
         Click on the Vite and React logos to learn more
       </p>
       <div>
-        <Auth0LoginButton onLogin={() => {}} />
-        <Auth0LogoutButton onLogout={() => {}} />
+        <Auth0LoginButton onLogin={() => { }} />
+        <Auth0LogoutButton onLogout={() => { }} />
       </div>
     </>
   );
